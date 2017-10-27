@@ -7,8 +7,26 @@
 
 
 body {
+  background: black;
+  color: darkgrey;
   font-family: Arial, sans-serif;
   font-size: 14px;
-  color: darkgrey;
-  background: black;
+}
+
+p {
+  line-height: 1.65em;
+
+}
+
+a:link,
+a:visited {
+   color: #006ec3;
+}
+
+/* generlal layout */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
